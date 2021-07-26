@@ -1,1 +1,12 @@
-{ "input_folder_path": "practicedata", "output_folder_path": "ingesteddata", "test_data_path": "testdata", "output_model_path": "practicemodels", "prod_deployment_path": "production_deployment"}
+{
+    "input_folder_path": "source_data",
+    "output_folder_path": "ingested_data",
+    "ingested_data_file": "final_data.csv",
+    "ingestion_records": "ingested_files.txt",
+    "test_data_path": "test_data",
+    "test_data_file": "test_data.csv",
+    "test_records": "latest_score.txt",
+    "output_model_path": "models",
+    "model": "trained_model.pkl",
+    "prod_deployment_path": "production_deployment"
+}
