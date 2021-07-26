@@ -8,5 +8,6 @@
     "test_records": "latest_score.txt",
     "output_model_path": "models",
     "model": "trained_model.pkl",
-    "prod_deployment_path": "production_deployment"
+    "prod_deployment_path": "production_deployment",
+    "classification_report": "classification_report.png"
 }
