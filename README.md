@@ -1,0 +1,1 @@
+I built an end-to-end, automated ML pipeline that predicts customer attrition risks. First, I set up processes to ingest data and score, retrain and re-deploy ML models that predict attrition risk. Second, I implemented automatically check for new data and model drift. Lastly, I set up APIs that allow users to access model results, metrics, and diagnostics.
