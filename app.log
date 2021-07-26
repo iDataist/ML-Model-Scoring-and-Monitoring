@@ -1,0 +1,181 @@
+2021-07-26 14:41:02,463  * Debugger is active!
+2021-07-26 14:41:02,472  * Debugger PIN: 127-413-253
+2021-07-26 14:41:29,373  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/app.py', reloading
+2021-07-26 14:41:30,968  * Debugger is active!
+2021-07-26 14:41:30,985  * Debugger PIN: 127-413-253
+2021-07-26 14:42:37,633 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 14:42:37,650 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 14:42:37,653 192.168.0.4 - - [26/Jul/2021 14:42:37] "POST /predict HTTP/1.1" 200 -
+2021-07-26 14:42:58,505  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/app.py', reloading
+2021-07-26 14:43:01,030  * Debugger is active!
+2021-07-26 14:43:01,040  * Debugger PIN: 127-413-253
+2021-07-26 14:48:58,437  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:48:59,933  * Debugger is active!
+2021-07-26 14:48:59,943  * Debugger PIN: 127-413-253
+2021-07-26 14:49:34,957  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:49:35,609  * Debugger is active!
+2021-07-26 14:49:35,615  * Debugger PIN: 127-413-253
+2021-07-26 14:49:36,555 192.168.0.4 - - [26/Jul/2021 14:49:36] "GET / HTTP/1.1" 200 -
+2021-07-26 14:49:36,561 192.168.0.4 - - [26/Jul/2021 14:49:36] "GET /score HTTP/1.1" 200 -
+2021-07-26 14:49:36,584 192.168.0.4 - - [26/Jul/2021 14:49:36] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 14:49:39,977 192.168.0.4 - - [26/Jul/2021 14:49:39] "GET /timing HTTP/1.1" 200 -
+2021-07-26 14:52:18,138  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:52:19,418  * Debugger is active!
+2021-07-26 14:52:19,431  * Debugger PIN: 127-413-253
+2021-07-26 14:52:21,343 192.168.0.4 - - [26/Jul/2021 14:52:21] "GET / HTTP/1.1" 200 -
+2021-07-26 14:52:21,348 192.168.0.4 - - [26/Jul/2021 14:52:21] "GET /score HTTP/1.1" 200 -
+2021-07-26 14:52:21,370 192.168.0.4 - - [26/Jul/2021 14:52:21] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 14:52:24,599 192.168.0.4 - - [26/Jul/2021 14:52:24] "GET /timing HTTP/1.1" 200 -
+2021-07-26 14:52:25,172 JSON payload: None
+2021-07-26 14:52:25,176 inference payload DataFrame:Empty DataFrame
+Columns: []
+Index: []
+2021-07-26 14:52:25,376 192.168.0.4 - - [26/Jul/2021 14:52:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2021-07-26 14:54:14,867  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:54:16,210  * Debugger is active!
+2021-07-26 14:54:16,218  * Debugger PIN: 127-413-253
+2021-07-26 14:54:20,236 192.168.0.4 - - [26/Jul/2021 14:54:20] "GET / HTTP/1.1" 200 -
+2021-07-26 14:54:20,240 192.168.0.4 - - [26/Jul/2021 14:54:20] "GET /score HTTP/1.1" 200 -
+2021-07-26 14:54:20,263 192.168.0.4 - - [26/Jul/2021 14:54:20] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 14:54:23,710 192.168.0.4 - - [26/Jul/2021 14:54:23] "GET /timing HTTP/1.1" 200 -
+2021-07-26 14:54:24,234 JSON payload: None
+2021-07-26 14:54:24,237 inference payload DataFrame:Empty DataFrame
+Columns: []
+Index: []
+2021-07-26 14:54:24,397 192.168.0.4 - - [26/Jul/2021 14:54:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2021-07-26 14:54:35,725 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 14:54:35,731 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 14:54:35,733 192.168.0.4 - - [26/Jul/2021 14:54:35] "POST /predict HTTP/1.1" 200 -
+2021-07-26 14:55:37,307  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:55:38,929  * Debugger is active!
+2021-07-26 14:55:38,937  * Debugger PIN: 127-413-253
+2021-07-26 14:55:44,875 192.168.0.4 - - [26/Jul/2021 14:55:44] "GET / HTTP/1.1" 200 -
+2021-07-26 14:55:44,879 192.168.0.4 - - [26/Jul/2021 14:55:44] "GET /score HTTP/1.1" 200 -
+2021-07-26 14:55:44,903 192.168.0.4 - - [26/Jul/2021 14:55:44] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 14:55:47,272 192.168.0.4 - - [26/Jul/2021 14:55:47] "GET /timing HTTP/1.1" 200 -
+2021-07-26 14:55:47,792 JSON payload: None
+2021-07-26 14:55:47,795 inference payload DataFrame:Empty DataFrame
+Columns: []
+Index: []
+2021-07-26 14:55:47,948 192.168.0.4 - - [26/Jul/2021 14:55:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2021-07-26 14:56:10,100  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:56:11,607  * Debugger is active!
+2021-07-26 14:56:11,616  * Debugger PIN: 127-413-253
+2021-07-26 14:56:13,239 192.168.0.4 - - [26/Jul/2021 14:56:13] "GET / HTTP/1.1" 200 -
+2021-07-26 14:56:13,244 192.168.0.4 - - [26/Jul/2021 14:56:13] "GET /score HTTP/1.1" 200 -
+2021-07-26 14:56:13,265 192.168.0.4 - - [26/Jul/2021 14:56:13] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 14:56:15,887 192.168.0.4 - - [26/Jul/2021 14:56:15] "GET /timing HTTP/1.1" 200 -
+2021-07-26 14:56:16,439 JSON payload: None
+2021-07-26 14:56:16,442 inference payload DataFrame:Empty DataFrame
+Columns: []
+Index: []
+2021-07-26 14:56:16,607 192.168.0.4 - - [26/Jul/2021 14:56:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2021-07-26 14:58:10,773  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:58:12,902  * Debugger is active!
+2021-07-26 14:58:12,911  * Debugger PIN: 127-413-253
+2021-07-26 14:58:15,999 JSON payload: None
+2021-07-26 14:58:16,003 inference payload DataFrame:Empty DataFrame
+Columns: []
+Index: []
+2021-07-26 14:58:16,184 192.168.0.4 - - [26/Jul/2021 14:58:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2021-07-26 14:59:23,262  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 14:59:25,999  * Debugger is active!
+2021-07-26 14:59:26,018  * Debugger PIN: 127-413-253
+2021-07-26 14:59:31,498 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 14:59:31,542 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 14:59:31,572 192.168.0.4 - - [26/Jul/2021 14:59:31] "POST /predict HTTP/1.1" 200 -
+2021-07-26 15:00:22,927  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 15:00:25,022  * Debugger is active!
+2021-07-26 15:00:25,030  * Debugger PIN: 127-413-253
+2021-07-26 15:00:25,526 192.168.0.4 - - [26/Jul/2021 15:00:25] "GET / HTTP/1.1" 200 -
+2021-07-26 15:00:25,531 192.168.0.4 - - [26/Jul/2021 15:00:25] "GET /score HTTP/1.1" 200 -
+2021-07-26 15:00:25,553 192.168.0.4 - - [26/Jul/2021 15:00:25] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 15:00:34,328  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 15:00:35,024  * Debugger is active!
+2021-07-26 15:00:35,033  * Debugger PIN: 127-413-253
+2021-07-26 15:00:36,059 192.168.0.4 - - [26/Jul/2021 15:00:36] "GET / HTTP/1.1" 200 -
+2021-07-26 15:00:36,064 192.168.0.4 - - [26/Jul/2021 15:00:36] "GET /score HTTP/1.1" 200 -
+2021-07-26 15:00:36,086 192.168.0.4 - - [26/Jul/2021 15:00:36] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 15:00:39,368 192.168.0.4 - - [26/Jul/2021 15:00:39] "GET /timing HTTP/1.1" 200 -
+2021-07-26 15:00:40,063 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 15:00:40,070 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 15:00:40,072 192.168.0.4 - - [26/Jul/2021 15:00:40] "POST /predict HTTP/1.1" 200 -
+2021-07-26 15:01:06,099  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 15:01:08,496  * Debugger is active!
+2021-07-26 15:01:08,509  * Debugger PIN: 127-413-253
+2021-07-26 15:01:08,895 192.168.0.4 - - [26/Jul/2021 15:01:08] "GET / HTTP/1.1" 200 -
+2021-07-26 15:01:08,900 192.168.0.4 - - [26/Jul/2021 15:01:08] "GET /score HTTP/1.1" 200 -
+2021-07-26 15:01:08,932 192.168.0.4 - - [26/Jul/2021 15:01:08] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 15:01:11,788 192.168.0.4 - - [26/Jul/2021 15:01:11] "GET /timing HTTP/1.1" 200 -
+2021-07-26 15:01:12,481 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 15:01:12,487 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 15:01:12,489 192.168.0.4 - - [26/Jul/2021 15:01:12] "POST /predict HTTP/1.1" 200 -
+2021-07-26 15:01:29,670  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 15:01:31,322  * Debugger is active!
+2021-07-26 15:01:31,332  * Debugger PIN: 127-413-253
+2021-07-26 15:01:33,406 192.168.0.4 - - [26/Jul/2021 15:01:33] "GET / HTTP/1.1" 200 -
+2021-07-26 15:01:33,413 192.168.0.4 - - [26/Jul/2021 15:01:33] "GET /score HTTP/1.1" 200 -
+2021-07-26 15:01:33,468 192.168.0.4 - - [26/Jul/2021 15:01:33] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 15:01:36,719 192.168.0.4 - - [26/Jul/2021 15:01:36] "GET /timing HTTP/1.1" 200 -
+2021-07-26 15:01:37,464 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 15:01:37,470 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 15:01:37,473 192.168.0.4 - - [26/Jul/2021 15:01:37] "POST /predict HTTP/1.1" 200 -
+2021-07-26 15:02:01,151  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/apicalls.py', reloading
+2021-07-26 15:02:04,465  * Debugger is active!
+2021-07-26 15:02:04,476  * Debugger PIN: 127-413-253
+2021-07-26 15:02:04,519 192.168.0.4 - - [26/Jul/2021 15:02:04] "GET / HTTP/1.1" 200 -
+2021-07-26 15:02:04,524 192.168.0.4 - - [26/Jul/2021 15:02:04] "GET /score HTTP/1.1" 200 -
+2021-07-26 15:02:04,564 192.168.0.4 - - [26/Jul/2021 15:02:04] "GET /summary_stats HTTP/1.1" 200 -
+2021-07-26 15:02:09,270 192.168.0.4 - - [26/Jul/2021 15:02:09] "GET /timing HTTP/1.1" 200 -
+2021-07-26 15:02:09,910 JSON payload: {'lastmonth_activity': {'0': 234}, 'lastyear_activity': {'0': 3}, 'number_of_employees': {'0': 10}}
+2021-07-26 15:02:09,916 inference payload DataFrame:   lastmonth_activity  lastyear_activity  number_of_employees
+0                 234                  3                   10
+2021-07-26 15:02:09,918 192.168.0.4 - - [26/Jul/2021 15:02:09] "POST /predict HTTP/1.1" 200 -
+2021-07-26 15:12:51,404  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:12:53,394  * Debugger is active!
+2021-07-26 15:12:53,403  * Debugger PIN: 127-413-253
+2021-07-26 15:13:13,000  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:13:13,743  * Debugger is active!
+2021-07-26 15:13:13,750  * Debugger PIN: 127-413-253
+2021-07-26 15:13:27,379  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:13:28,121  * Debugger is active!
+2021-07-26 15:13:28,128  * Debugger PIN: 127-413-253
+2021-07-26 15:29:28,571  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/scoring.py', reloading
+2021-07-26 15:29:30,529  * Debugger is active!
+2021-07-26 15:29:30,537  * Debugger PIN: 127-413-253
+2021-07-26 15:41:47,941  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/training.py', reloading
+2021-07-26 15:41:49,319  * Debugger is active!
+2021-07-26 15:41:49,328  * Debugger PIN: 127-413-253
+2021-07-26 15:47:12,426  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/deployment.py', reloading
+2021-07-26 15:47:13,799  * Debugger is active!
+2021-07-26 15:47:13,806  * Debugger PIN: 127-413-253
+2021-07-26 15:48:44,315  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/reporting.py', reloading
+2021-07-26 15:48:46,129  * Debugger is active!
+2021-07-26 15:48:46,137  * Debugger PIN: 127-413-253
+2021-07-26 15:51:01,835  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:51:02,568  * Debugger is active!
+2021-07-26 15:51:02,574  * Debugger PIN: 127-413-253
+2021-07-26 15:52:07,400  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:52:08,090  * Debugger is active!
+2021-07-26 15:52:08,098  * Debugger PIN: 127-413-253
+2021-07-26 15:56:09,434  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:56:10,849  * Debugger is active!
+2021-07-26 15:56:10,860  * Debugger PIN: 127-413-253
+2021-07-26 15:58:45,513  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 15:58:46,320  * Debugger is active!
+2021-07-26 15:58:46,330  * Debugger PIN: 127-413-253
+2021-07-26 16:00:28,033  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 16:00:29,654  * Debugger is active!
+2021-07-26 16:00:29,663  * Debugger PIN: 127-413-253
+2021-07-26 16:00:49,231  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 16:00:49,868  * Debugger is active!
+2021-07-26 16:00:49,874  * Debugger PIN: 127-413-253
+2021-07-26 16:02:59,298  * Detected change in '/Users/huiren/Downloads/ML Model Scoring and Monitoring/fullprocess.py', reloading
+2021-07-26 16:03:00,175  * Debugger is active!
+2021-07-26 16:03:00,183  * Debugger PIN: 127-413-253
