@@ -12,16 +12,20 @@ import json
 
 ##################Load config.json and correct path variable
 with open('config.json','r') as f:
-    config = json.load(f) 
+    config = json.load(f)
 
-dataset_csv_path = os.path.join(config['output_folder_path']) 
-prod_deployment_path = os.path.join(config['prod_deployment_path']) 
-
+ingestion_records = config['ingestion_records']
+model_path = config['output_model_path']
+model = config['model']
+test_records = config['test_records']
+prod_deployment_path = config['prod_deployment_path']
 
 ####################function for deployment
-def store_model_into_pickle(model):
+def store_model_into_pickle():
     #copy the latest pickle file, the latestscore.txt value, and the ingestfiles.txt file into the deployment directory
-        
-        
-        
+    os.rename(ingestion_records, os.path.join(prod_deployment_path, ingestion_records))
+    os.rename(os.path.join(model_path, model), os.path.join(prod_deployment_path, model))
+    os.rename(test_records, os.path.join(prod_deployment_path, test_records))
 
+if __name__ == '__main__':
+    store_model_into_pickle()
