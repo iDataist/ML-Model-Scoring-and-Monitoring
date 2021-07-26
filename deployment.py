@@ -21,11 +21,11 @@ test_records = config['test_records']
 prod_deployment_path = config['prod_deployment_path']
 
 ####################function for deployment
-def store_model_into_pickle():
+def move_artifacts_to_production_deployment_dir():
     #copy the latest pickle file, the latestscore.txt value, and the ingestfiles.txt file into the deployment directory
     os.rename(ingestion_records, os.path.join(prod_deployment_path, ingestion_records))
     os.rename(os.path.join(model_path, model), os.path.join(prod_deployment_path, model))
     os.rename(test_records, os.path.join(prod_deployment_path, test_records))
 
 if __name__ == '__main__':
-    store_model_into_pickle()
+    move_artifacts_to_production_deployment_dir()
