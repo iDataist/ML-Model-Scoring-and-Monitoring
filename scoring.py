@@ -8,12 +8,11 @@ from datetime import datetime
 with open('config.json','r') as f:
     config = json.load(f)
 
-dataset_csv_path = os.path.join(config['output_folder_path'], config['ingested_data_file'])
 model_path = os.path.join(config['output_model_path'], config['model'])
 test_data_path = os.path.join(config['test_data_path'], config['test_data_file'])
 test_records = os.path.join(config['test_records'])
 
-def score_model():
+def score_model(model_path, test_data_path, test_records):
     model = joblib.load(model_path)
     test_data = pd.read_csv(test_data_path)
     X_test = test_data[['lastmonth_activity','lastyear_activity','number_of_employees']]
@@ -30,4 +29,4 @@ def score_model():
         MyFile.write('\n')
 
 if __name__ == '__main__':
-    score_model()
+    core_model(model_path, test_data_path, test_records)
