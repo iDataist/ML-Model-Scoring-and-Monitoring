@@ -11,12 +11,13 @@ with open('config.json','r') as f:
 model_path = os.path.join(config['output_model_path'], config['model'])
 dataset_csv_path = os.path.join(config['output_folder_path'], config['ingested_data_file'])
 
-df = pd.read_csv(dataset_csv_path)
-X = df[['lastmonth_activity','lastyear_activity','number_of_employees']]
-y = df['exited']
-#################Function for training the model
-def train_model():
 
+#################Function for training the model
+def train_model(dataset_csv_path, model_path):
+
+    df = pd.read_csv(dataset_csv_path)
+    X = df[['lastmonth_activity','lastyear_activity','number_of_employees']]
+    y = df['exited']
     #use this logistic regression for training
     lr = LogisticRegression()
 
@@ -26,4 +27,4 @@ def train_model():
     joblib.dump(lr, model_path)
 
 if __name__ == '__main__':
-    train_model()
+    train_model(dataset_csv_path, model_path)
